@@ -26,8 +26,7 @@ public class GetSuccessRate {
                 }
             }
             double total = count1 + count2;
-            double seccess = count1 / total;
-            return seccess;
+            return count1 / total;
 
         }
     }
