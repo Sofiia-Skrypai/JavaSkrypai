@@ -1,6 +1,8 @@
 import MateTask.StringPractice;
 import MateTask.BasicPractice;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -21,10 +23,18 @@ public class Main {
 //        System.out.println(BasicPractice.getMiddleString("")); // ""
 
 //      removeOddChars
-        System.out.println(BasicPractice.removeOddChars("1234")); // "13"
-        System.out.println(BasicPractice.removeOddChars("(())")); // "()"
-        System.out.println(BasicPractice.removeOddChars("Bob")); // "Bb"
-        System.out.println(BasicPractice.removeOddChars("")); // ""
+//        System.out.println(BasicPractice.removeOddChars("1234")); // "13"
+//        System.out.println(BasicPractice.removeOddChars("(())")); // "()"
+//        System.out.println(BasicPractice.removeOddChars("Bob")); // "Bb"
+//        System.out.println(BasicPractice.removeOddChars("")); // ""
+
+//      MarkStringEnds
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("hello"))); // ["Hello", "hellO"]
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("example"))); // ["Example", "examplE"]
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("Bob"))); // ["Bob", "BoB"]
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("ALICE"))); // ["ALICE", "ALICE"]
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("wow!"))); // ["Wow!", "wow!"]
+        System.out.println(Arrays.toString(BasicPractice.markStringEnds("o"))); // ["O", "O"]
 
     }
 }
