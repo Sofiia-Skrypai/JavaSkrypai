@@ -14,11 +14,17 @@ public class Main {
 //        System.out.println(StringPractice.getSuccessRate(""));
 
 //      getMiddleString
-        System.out.println(BasicPractice.getMiddleString("hello")); // "l"
-        System.out.println(BasicPractice.getMiddleString("v")); // "23"
-        System.out.println(BasicPractice.getMiddleString("(())")); // "()"
-        System.out.println(BasicPractice.getMiddleString("Bob")); // "o"
-        System.out.println(BasicPractice.getMiddleString("")); // ""
+//        System.out.println(BasicPractice.getMiddleString("hello")); // "l"
+//        System.out.println(BasicPractice.getMiddleString("v")); // "23"
+//        System.out.println(BasicPractice.getMiddleString("(())")); // "()"
+//        System.out.println(BasicPractice.getMiddleString("Bob")); // "o"
+//        System.out.println(BasicPractice.getMiddleString("")); // ""
+
+//      removeOddChars
+        System.out.println(BasicPractice.removeOddChars("1234")); // "13"
+        System.out.println(BasicPractice.removeOddChars("(())")); // "()"
+        System.out.println(BasicPractice.removeOddChars("Bob")); // "Bb"
+        System.out.println(BasicPractice.removeOddChars("")); // ""
 
     }
 }

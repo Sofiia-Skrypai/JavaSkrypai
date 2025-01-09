@@ -15,4 +15,17 @@ public class BasicPractice {
             return "";
         }
     }
+
+    public static String removeOddChars(String originalString) {
+        if(!originalString.isEmpty()){
+            StringBuilder builder = new StringBuilder(originalString);
+            for (int i = 1; i < builder.length(); i += 1){
+                builder.delete(i, i+1);
+            }
+            return String.valueOf(builder);
+        }
+        else {
+            return "";
+        }
+    }
 }
