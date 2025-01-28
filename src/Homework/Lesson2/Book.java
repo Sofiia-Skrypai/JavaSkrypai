@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Lesson2;
 
 //Створіть клас Book, який має наступні поля:
 //title (String) - назва книги

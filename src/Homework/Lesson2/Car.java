@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Lesson2;
 
 //Завдання 1: Клас Car
 //Створіть клас Car, який має наступні поля:

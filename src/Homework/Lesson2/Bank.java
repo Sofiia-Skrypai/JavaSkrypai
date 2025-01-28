@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Lesson2;
 
 //Створіть клас Bank, який має наступні поля:
 //name (String) - назва банку
